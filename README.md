@@ -35,7 +35,7 @@ RPS-Modern/
 ## 🌐 Live Website
 
 Check out the deployed game here:  
-[**Play RPS-Modern Online**](https://YourUsername.github.io/RPS-Modern/)
+[**Play RPS-Modern Online**](https://memon-gulam-45.github.io/RPS-Modern/)
 
 ---
 
