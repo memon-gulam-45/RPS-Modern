@@ -28,6 +28,17 @@
         </div>
       </div>
 
+      <div class="rounds-container">
+        <label for="rounds-select">Select Rounds: </label>
+        <select id="rounds-select">
+          <option>Select</option>
+          <option value="3">Best of 3</option>
+          <option value="5">Best of 5</option>
+          <option value="7">Best of 7</option>
+        </select>
+        <p id="current-round">Round: 0</p>
+      </div>
+
       <div class="score-board">
         <div class="score">
           <p id="user-score">0</p>
@@ -44,10 +55,14 @@
       </div>
 
       <div class="msg-container">
-        <p id="msg">Play Your Move...</p>
+        <p id="msg">Select Your Rounds</p>
       </div>
 
-      <button id="reset-btn">Reset Game</button>
+      <div class="reset-container">
+        <p id="end-msg" class="end-msg"></p>
+
+        <button id="reset-btn">Reset Game</button>
+      </div>
     </main>
 
     <script src="script.js"></script>
