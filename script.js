@@ -112,6 +112,8 @@ const resetGame = () => {
   updateRoundDisplay();
   updateMsg("Battle Begins! Pick Your Move", "draw");
   endMsg.innerText = "";
+  document.getElementById("rounds-container").style.display = "flex";
+  document.getElementById("current-round").style.display = "none";
 };
 
 roundsSelect.addEventListener("change", () => {
@@ -120,11 +122,17 @@ roundsSelect.addEventListener("change", () => {
   if (selectedValue && selectedValue !== "Select") {
     totalRounds = parseInt(selectedValue);
     resetGame();
+
+    document.getElementById("rounds-container").style.display = "none";
+    document.getElementById("current-round").style.display = "block";
   } else {
     totalRounds = 0;
     currentRound = 0;
     updateRoundDisplay();
     updateMsg("Please select number of rounds to start!", "draw");
+
+    document.getElementById("rounds-container").style.display = "flex";
+    document.getElementById("current-round").style.display = "none";
   }
 });
 
