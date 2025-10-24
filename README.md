@@ -12,6 +12,9 @@ This project features a polished UI, smooth animations, and works perfectly on d
 - Dynamic robot choice display
 - Scoreboard with live updates
 - Highlight effect on robot's choice
+- Select number of rounds (Best of 3, 5, or 7) before starting
+- Winner message displayed only after all rounds
+- Small end-of-game notice near reset button
 - Reset button to start a new game
 - Works on desktops, tablets, and mobile devices
 
