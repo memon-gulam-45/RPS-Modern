@@ -112,6 +112,8 @@ const resetGame = () => {
   updateRoundDisplay();
   updateMsg("Battle Begins! Pick Your Move", "draw");
   endMsg.innerText = "";
+
+  roundsSelect.value = "Select";
   document.getElementById("rounds-container").style.display = "flex";
   document.getElementById("current-round").style.display = "none";
 };
